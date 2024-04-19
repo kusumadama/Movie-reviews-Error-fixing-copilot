@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Site</title>
+    <style>
+        /* Your existing CSS styles here */
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Upcoming</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Dark/Light Mode Toggle -->
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Latest Reviews and Trailers</h1>
+        <!-- Search Bar -->
+        <label for="searchInput">Search movies:</label>
+        <input type="text" id="searchInput" placeholder="Search movies...">
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <!-- Movie Details, Ratings, and User Comments -->
+        <!-- You can populate this section dynamically using JavaScript -->
+    </section>
+
+    <!-- Upcoming Movies Grid/List -->
+    <section class="upcoming">
+        <!-- Display upcoming movies with filters and search functionality -->
+    </section>
+
+    <!-- Footer with Social Links -->
+    <footer>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <!-- JavaScript for Dark Mode Toggle -->
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', () => {
+            // Toggle dark mode logic here
+            const body = document.body;
+            body.classList.toggle('dark-mode'); // Add a CSS class for dark mode
+        });
+    </script>
+</body>
+</html>
